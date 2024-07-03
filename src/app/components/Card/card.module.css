@@ -1,0 +1,69 @@
+  @font-face {
+    font-family: lemonMilk;
+    src: url('/fonts/lemonmilk.otf');
+  }
+
+  @font-face {
+    font-family: heavitas;
+    src: url('/fonts/heavitas.ttf');
+  }
+  
+  .card_container {
+    width: 18rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    display: inline-block;
+    overflow: hidden;
+    margin: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .card_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card_body {
+    padding: 1rem;
+  }
+  
+  .card_title {
+    color: #ff6950;
+    font-family: lemonMilk;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card_text {
+    color: #133e4f;
+    font-family: heavitas;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  .card_button {
+    display: inline-block;
+    padding: 0.45rem 0;
+    margin: 0.25rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: #0ea3b0;
+    color: #fff;
+    border: 1px solid #0ea3b0;
+    width: 100%;
+  }
+
+  .card_button:hover {
+    background-color: #133e4f;
+    border: 1px solid #133e4f;
+  }
+  
+  
