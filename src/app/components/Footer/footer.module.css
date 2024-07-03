@@ -1,0 +1,15 @@
+  @font-face {
+    font-family: roboto;
+    src: url('/fonts/roboto.ttf');
+  }
+
+.footer {
+    background-color: #133e4f; 
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+  
